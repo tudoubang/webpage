@@ -1,3 +1,14 @@
+body{
+    font-family: 'Lobster', cursive;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    float: left;
+}
 .content-bg{
     background-repeat: no-repeat;
     background-position: center center;
@@ -5,12 +16,84 @@
     background-size: cover;
     height: 900px;
 }
+.layer-bg{
+    background-image: url('../img/effect_2.png');
+    background-repeat: repeat;
+    height: 900px;
+}
 .bg-img-one{
-    background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-439001.jpg');
+    background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-119372.jpg');
 }
 .bg-img-two{
     background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-438982.jpg');
 }
 .bg-img-three{
     background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-438826.jpg');
+}
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    height: 500px;
+}
+.lethe{
+    font-family: 'Fjalla One', sans-serif;
+    border: 8px solid #fff;
+    padding: 8px 10px;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 6em;
+    letter-spacing:15px;
+}
+.text-white{
+    color: #fff;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.contact ul>li{
+    text-align: center;
+    padding: 0 20px;
+}
+.contact ul>li a{
+    color: #fff;
+}
+.contact ul>li a:hover .hexagon{
+    width: 55px;
+    height: 60px;
+    line-height: 65px;
+    background: #fff;
+    -webkit-transform:scale(-1.2,1.2);
+    -moz-transform:scale(-1.2,1.2);
+}
+.contact ul>li a:hover .hexagon.hex-red{
+    color: #FA4659;
+}
+.contact ul>li a:hover .hexagon.hex-green{
+    color: #2EB872;
+}
+.contact ul>li a:hover .hexagon.hex-gray{
+    color: #424242;
+}
+.hexagon{
+    width: 50px;
+    height: 55px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    -o-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path:  polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transition: .4s cubic-bezier(.2,.71,.84,.52) ;
+}
+.hex-red{
+    background: #FA4659;
+}
+.hex-green{
+    background: #2EB872;
+}
+.hex-gray{
+    background: #424242;
 }
