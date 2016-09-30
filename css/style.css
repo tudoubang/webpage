@@ -1,0 +1,16 @@
+.content-bg{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 900px;
+}
+.bg-img-one{
+    background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-439001.jpg');
+}
+.bg-img-two{
+    background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-438982.jpg');
+}
+.bg-img-three{
+    background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-438826.jpg');
+}
