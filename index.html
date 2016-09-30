@@ -8,7 +8,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
         <!-- Front CSS -->
-        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Lobster" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Fjalla+One" rel="stylesheet">
         <!-- Icon CSS -->
         <link href="https://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
         <!-- Styel CSS -->
@@ -16,9 +16,31 @@
     </head>
     <body>
         <!-- START HOME -->
-        <div class="content-bg bg-img-one">
+        <div id="home" class="content-bg bg-img-one">
             <div class="layer-bg">
                 <div class="container">
+                    <!-- START NAV -->
+                    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                        <div class="container">
+                            <div class="navbar-header">
+                              <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                              <a class="navbar-brand hidden-sm" href="#home">LETHE</a>
+                            </div>
+                            <div class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav pull-right" role="tablist">
+                                    <li role="presentation"><a href="#">Home</a></li>
+                                    <li role="presentation"><a href="#about">About</a></li>
+                                    <li role="presentation"><a href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END NAV -->
                     <div class="row">
                         <div class="col-xs-12 flex-box">
                             <h1 class="lethe">LETHE</h1>
@@ -29,7 +51,7 @@
                         <div class="col-xs-12 contact">
                             <ul>
                                 <li>
-                                    <a href="">
+                                    <a href="http://weibo.com/u/2794856780?refer_flag=1005055010_" target="_blank">
                                         <div class="hexagon hex-red">
                                             <i class="fa fa-weibo fa-2x"></i>
                                         </div>
@@ -37,7 +59,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="https://github.com/tudoubang" target="_blank">
                                         <div class="hexagon hex-gray">
                                             <i class="fa fa-github fa-2x"></i>
                                         </div>
@@ -45,7 +67,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="https://freecodecamp.cn/tudoubang" target="_blank">
                                         <div class="hexagon hex-green">
                                             <i class="fa fa-fire fa-fw fa-2x"></i>
                                         </div>
@@ -53,17 +75,30 @@
                                     </a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> <!-- /.contact-->
                     </div>
 
                 </div> <!-- /.container -->
             </div> <!-- /.layer-bg -->
         </div>
         <!-- END HOME -->
-        <div class="content-bg bg-img-two">
-
+        <div id="about" class="content-bg bg-img-two">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <h1 class="about">ABOUT</h1>
+                            </div>
+                            <div class="col-xs-9">
+                                <p>Our daily encounters with forgetting have not taught us enough about how much power it exercises over our lives</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="content-bg bg-img-three">
+        <div id="contact" class="content-bg bg-img-three">
 
         </div>
         <!-- jQuery first, then Bootstrap JS. -->

@@ -1,5 +1,5 @@
 body{
-    font-family: 'Lobster', cursive;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 ul{
     list-style: none;
@@ -15,6 +15,7 @@ ul li{
     background-attachment: fixed;
     background-size: cover;
     height: 900px;
+    padding-top: 50px;
 }
 .layer-bg{
     background-image: url('../img/effect_2.png');
@@ -25,7 +26,7 @@ ul li{
     background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-119372.jpg');
 }
 .bg-img-two{
-    background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-438982.jpg');
+    background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-355249.jpg');
 }
 .bg-img-three{
     background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-438826.jpg');
@@ -96,4 +97,10 @@ ul li{
 }
 .hex-gray{
     background: #424242;
+}
+
+.about{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 65px;
+    border-right: 2px solid #333;
 }
